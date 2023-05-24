@@ -35,7 +35,7 @@ def button_add():
 # defining the equal button,we want it to grab a variable, this is going to grab whatever is in the text box.
 # Defining the adding,substracting,dividing and multiplying mechanism.
 def button_equal():
-    second_number = e.get(0)
+    second_number = e.get()
     e.delete(0,END)
 
     if math == "addition":
